@@ -7,7 +7,7 @@ function writeCards(arrayOfNames, type) {
   return newArray;
 }
 
-function countdown(counter){
+function countDown(counter){
    while (counter > 0){
      console.log(counter);
      counter--
