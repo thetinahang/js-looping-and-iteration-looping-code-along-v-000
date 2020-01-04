@@ -1,6 +1,6 @@
 // Code your solutions in this file
 function writeCards(arrayOfNames, type) {
-  newArray = [];
+  let newArray = [];
   for (let counter = 0; counter < arrayOfNames.length; counter++) {
     newArray.push(`Thank you, ${counter}, for the wonderful ${type} gift!`);
   }
