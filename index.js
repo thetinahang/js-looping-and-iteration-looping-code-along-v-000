@@ -2,7 +2,7 @@
 function writeCards(arrayOfNames, type) {
   let newArray = [];
   for (let counter = 0; counter < arrayOfNames.length; counter++) {
-    newArray.push(`Thank you, ${counter}, for the wonderful ${type} gift!`);
+    newArray.push(`Thank you, ${arrayOfNames[counter]}, for the wonderful ${type} gift!`);
   }
   return newArray;
 }
