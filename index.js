@@ -8,7 +8,7 @@ function writeCards(arrayOfNames, type) {
 }
 
 function countDown(number) {
-    for (let counter = number; counter > number-1; counter--) {
+    for (let counter = number; counter > -1; counter--) {
       console.log(`${counter}`);
     }
 }
