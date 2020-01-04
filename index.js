@@ -5,6 +5,6 @@ function writeCards(name) {
 
 function countDown(number) {
     for (let counter = number; counter > 0; counter--) {
-      console.log(`${number}`)
+      console.log(`${counter}`)
     }
 }
