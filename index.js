@@ -7,8 +7,10 @@ function writeCards(arrayOfNames, type) {
   return newArray;
 }
 
-function countDown(number) {
-    for (let counter = number; counter > -1; counter--) {
-      console.log(`${counter}`);
-    }
-}
+function countdown(counter){
+   while (counter > 0){
+     console.log(counter);
+     counter--
+   }
+     console.log(0);
+ }
