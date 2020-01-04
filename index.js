@@ -1,6 +1,10 @@
 // Code your solutions in this file
-function writeCards(name) {
-    console.log(`Thank you, ${name}, for the wonderful surprise gift!`)
+function writeCards(arrayOfNames) {
+  newArray = []
+  for (let counter = 0; counter < arrayOfNames.length; counter++) {
+    newArray.push(`Thank you, ${counter}, for the wonderful surprise gift!`)
+  }
+  newArray
 }
 
 function countDown(number) {
